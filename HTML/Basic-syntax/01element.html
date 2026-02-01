@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My test page</title>
+  </head>
+  <body>
+    <em>这是我的文本</em>
+
+    <!-- 嵌套元素 -->
+    <p>我们的小猫脾气<strong>很</strong>暴躁!</p>
+
+    <!-- 空元素-->
+    <img src="images/firefox2.jpg" alt="火狐" width="300" height="300" />
+    <p></p>
+
+    <!-- 布尔属性 -->
+    <input type="text" disabled="disabled" />
+    <input type="text" disabled="" />
+    <input type="text" />
+    <p></p>
+    
+    <!-- 省略属性值周围的引号 -->
+    <a href=https://www.mozilla.org/ >最喜欢的网站</a>
+    <a href=https://www.mozilla.org/ 
+       title=The Mozilla homepage> 
+       <!-- 浏览器会误解标记，将 title 属性误认为三个属性-->
+       最喜欢的网站</a>
+
+  </body>
+</html>
